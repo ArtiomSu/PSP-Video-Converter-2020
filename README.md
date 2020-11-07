@@ -43,6 +43,7 @@ This script created by https://github.com/leleobhz/ and based on PSP-Video-Conve
 #### youtubedl_psp requirements
 * Same `ffmpeg` as PSP-Video-Converter-2020.sh
 * `youtube-dl` (https://youtube-dl.org/) in latest version possible (Tested with 2020.09.20)
+* `aria2c` for faster downloads (Usually available with `apt install aria2` or `yum install aria2`)
 
 #### youtubedl_psp usage
 
