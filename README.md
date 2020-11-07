@@ -36,6 +36,22 @@ Presets
 For highest quality use: ./PSP-Video-Converter-2020.sh input_file_path.mp4 output_file_path 1
 ```
 
+### extra: youtubedl_psp.sh
+
+This script created by https://github.com/leleobhz/ and based on PSP-Video-Converter-2020.sh is targeted to best possible encoding a Youtube URL. 
+
+#### youtubedl_psp requirements
+* Same `ffmpeg` as PSP-Video-Converter-2020.sh
+* `youtube-dl` (https://youtube-dl.org/) in latest version possible (Tested with 2020.09.20)
+
+#### youtubedl_psp usage
+
+```
+Single command: ./youtubedl_psp.sh <youtube url>
+```
+
+Output will generate .mp4 ready for the card and .THM with a 160x120 scaled+pan thumbnail from youtube thumbnail image.
+
 ### issues
 currently this uses nvenc ( nvidia encoder ) to create files as I was not able to get any other h264 encoder to play on the PSP for some strange reason. So if you dont have an nvidia gpu I appologise I will try to figure it out soon enough.
 
